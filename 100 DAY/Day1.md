@@ -54,3 +54,5 @@ Thêm đoạn sau vào compilerOptions trong file tsconfig.json
     "types": [],
     "ignoreDeprecations": "6.0"
 ```
+
+123
