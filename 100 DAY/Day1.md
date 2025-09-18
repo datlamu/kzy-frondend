@@ -46,8 +46,11 @@ Mở Command Palette (Ctrl+Shift+P) > Preferences: Open Settings (JSON) thêm
   }
 ```
 
-4. Sửa lỗi trong file tsconfig.json
+## Sửa lỗi trong file tsconfig.json
+
+Thêm đoạn sau vào compilerOptions trong file tsconfig.json
 
 ```typescript
-npm install --save-dev @types/minimatch --legacy-peer-deps
+    "types": [],
+    "ignoreDeprecations": "6.0"
 ```
